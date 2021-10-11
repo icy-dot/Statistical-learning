@@ -6,6 +6,12 @@ MNIST 数据集来自美国国家标准与技术研究所, National Institute of
 该mnist_train.csv文件包含 60,000 个训练示例和标签。将mnist_test.csv含有10,000个测试实例和标签。每行包含 785 个值：第一个值是标签（从 0 到 9 的数字），其余 784 个值是像素值（从 0 到 255 的数字）。
 一行为一个样本
 从这位先生这里学习的：https://github.com/Dod-o/Statistical-Learning-Method_Code
+
+未解之惑：
+1、用的是随机梯度下降，如果是批量梯度下降怎么实现？
+2、迭代次数怎么确定？自己开心？然后慢慢调吗？
+3、提高迭代次数，正确率是否会有影响？
+4、下降的步长怎么确定的？
 '''
 
 def loadData(file):
